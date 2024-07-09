@@ -12,7 +12,7 @@ class WordsFinder:
                         if char in [',', '.', '=', '!', '?', ';', ':', ' - ']:
                             low_line = low_line.replace(char, '')
                             words = low_line.split()
-                            all_words[file_name] = words
+                            all_words[i, file_name] = words
 
         return all_words
 
