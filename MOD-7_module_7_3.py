@@ -15,21 +15,7 @@ class WordsFinder:
                             all_words[file_name] = words
 
         return all_words
-    #
-    # def find(self, word):
-    #     found_positions = {}
-    #     all_words = self.get_all_words()
-    #     for file_name, words in all_words.items():
-    #         if word in words:
-    #             found_positions[file_name] = words.index(word) + 1
-    #     return found_positions
-    #
-    # def count(self, word):
-    #     counts = {}
-    #     all_words = self.get_all_words()
-    #     for file_name, words in all_words.items():
-    #         counts[file_name] = words.count(word)
-    #     return counts
+
 
 
 finder2 = WordsFinder('test_file.txt')
